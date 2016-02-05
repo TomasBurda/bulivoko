@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2016, 8:55:24 PM
+    Author     : Tomas
+*/
+
+
+body{
+	background: #b8d3fd;
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica, Arial;
+	font-size: 14pt;
+}
+
+.table-1 input, .table-2 input, .table-1 select, .table-2 select {
+	font-size: 14pt; 
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #98b3ed;
+	padding: 0px 0px 0px 5px;
+}
+.table-1 select{
+	height: 40px;
+}
+.table-1{
+	border-collapse: collapse !important;
+}
+
+.table-1 td, .table-1 th,
+.table-2 td, .table-2 th{
+	border: 2px solid #98b3ed;
+	height: 45px;
+	line-height: 45px;
+	vertical-align: middle;
+	padding: 0px 5px;
+}
+
+
+.table-1 tr td:last-of-type{
+	color: #C22;
+}
+
+.table-1 tr td:last-of-type span {
+	color: #1A7E1E;
+}
+
+
+
+.table-1 td:nth-child(4) input{
+
+	width: 40px;
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 400px) {
+
+	body{
+		padding: 0px 5px;
+		font-size: 13.5pt;
+		background-color: #d0ddf7;
+	}
+	
+	caption {
+		display: none;
+	}
+	
+	.table-1{
+		border: 0px;
+	}
+	
+	.table-1 input{
+		text-align: center;
+		width:25px;
+		padding-left: 2px;
+			
+	}
+	
+	.table-1, .table-1 tr{
+		display: block;
+		padding: 35px 0px;
+		clear: left;
+		position: relative;
+	}
+
+	.table-1 tr{
+		position: relative;
+	}
+	
+	.table-1 td, .table-1 th {
+		background: #fdfdfd;
+		border-width: 1px;
+		display: block;
+		float: left;
+		width: 80px;
+		border-left-width: 0px;
+		border-bottom-width: 0px;
+	}
+
+	
+	.table-1 td:nth-child(1), .table-1 th:nth-child(1){ 
+		width: 10px;
+		border-left-width: 1px; 
+	}
+	.table-1 td:nth-child(3), .table-1 td:nth-child(4), .table-1 th:nth-child(3), .table-1 th:nth-child(4) {
+		width: 43px;
+	}
+	.table-1 td:nth-child(6), .table-1 th:nth-child(6)  {
+		position: absolute;
+		right: 0px;
+		text-align: center;
+		top: 35px;
+	}
+	.table-1 td:nth-child(5), .table-1 th:nth-child(5) {
+		border-left-width: 1px;
+		border-bottom-width: 1px;
+		width: 300px;
+		text-align: center;
+		
+	}
+
+
+
+
+	
+	.table-2{
+		border: 0px;
+	}
+	
+	.table-2 input{
+		text-align: center;
+		width:25px;
+		padding-left: 2px;
+			
+	}
+	
+	.table-2, .table-2 tr{
+		display: block;
+		padding: 35px 0px;
+		clear: left;
+		position: relative;
+	}
+
+	.table-2 tr{
+		position: relative;
+	}
+	
+	.table-2 td, .table-2 th {
+		background: #fdfdfd;
+		border-width: 1px;
+		display: block;
+		float: left;
+		width: 80px;
+		border-left-width: 0px;
+		border-bottom-width: 0px;
+	}
+
+	
+	.table-2 td:nth-child(1), .table-2 th:nth-child(1){ 
+		width: 10px;
+		border-left-width: 1px; 
+	}
+	.table-2 td:nth-child(2), .table-2 th:nth-child(2){ 
+		width: 130px;
+		border-left-width: 1px; 
+	}
+	.table-2 td:nth-child(2) input{
+		width: 120px;
+	}
+	.table-2 td:nth-child(3), .table-2 td:nth-child(4), .table-2 th:nth-child(3), .table-2 th:nth-child(4) {
+		width: 35px;
+	}
+	.table-2 td:nth-child(6), .table-2 th:nth-child(6)  {
+		position: absolute;
+		right: 0px;
+		width: 45px;
+		text-align: center;
+		top: 35px;
+	}
+	.table-2 td:nth-child(5), .table-2 th:nth-child(5) {
+		border-left-width: 1px;
+		border-bottom-width: 1px;
+		width: 300px;
+		text-align: center;
+		
+	}
+
+
+}
